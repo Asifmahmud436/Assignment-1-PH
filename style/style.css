@@ -18,7 +18,6 @@ nav ul li{
 }
 nav ul li button{
     width: 267px;
-
     padding: 17px 24px 17px 24px;
     border: 1px solid rgb(13, 19, 33);
     border-radius: 8px;
@@ -55,9 +54,162 @@ nav ul li button{
     width: 267px;
     padding: 21px 24px 21px 24px;
     font-size: 20px;
-font-weight: 600;
-border-radius: 8px;
+    font-weight: 600;
+    border-radius: 8px;
+    background: rgb(13, 19, 33);
+    color: white;
+}
+#reason{
+    width: 1140px;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.02);
+    margin: 0 auto;
+    text-align: center;
+    padding: 90px 45px;
+    margin-top: 100px;
+}
+#reason>h3{
+    font-size: 32px;
+    font-weight: 800;
+}
+#reason>p{
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.7;
+}
+.reason-card{
+    display: flex;
+    margin: 108px;
+    background-color: white;
+    border-radius: 16px;
+    padding: 48px;
+    color: rgba(13, 19, 33, 0.7);
+}
+.reason-card .content-part{
+    width: 477px;
+    height: 140px;
+    text-align: start;
+    padding-right: 98px;
+}
+.reason-card .content-part h3{
+    font-size: 24px;
+    font-weight: 700;
+}
+.content-part button{
+    padding: 12px 20px 12px 20px;
+    font-size: 20px;
+    font-weight: 600;
+    opacity: .7;
+    margin-top: 22px;
+}
+.sp-img{
+    margin-right: 160px;
+}
+#inspiration{
+    text-align: center;
+    margin-top: 100px;
+}
+#inspiration h3{
+    font-size: 32px;
+font-weight: 800;
+line-height: 37px;
+}
+#inspiration p{
+    font-size: 16px;
+    font-weight: 400;
+    opacity: .7;
+    margin-bottom: 47px;
+}
+#inspiration .yt-vid{
+    width: 1140px;
+height: 614px;
+}
 
-background: rgb(13, 19, 33);
-color: white;
+/* target section */
+#target{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+#target>h3{
+    font-size: 32px;
+font-weight: 800;
+}
+#target>p{
+    font-size: 16px;
+    font-weight: 400;
+    opacity: .7;
+    margin-bottom: 48px;
+}
+.target-card-container{
+    display: flex;
+    justify-content: space-around;
+}
+.target-card{
+    text-align: start;
+    padding: 40px;
+    width: 364px;
+}
+.html-card{
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+}
+.css-card{
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);
+}
+.js-card{
+    border-radius: 16px;
+    background: rgba(255, 223, 0, 0.05);
+}
+
+/* support section */
+#support{
+    width: 1140px;
+    height: 313px;
+    background-image: url('../assets/handshake.jpg');
+    background-size: cover;
+    margin: 0 auto;
+    border-radius: 16px;
+    padding: 64px;
+    color: white;
+}
+.support-content{
+    width: 1044px;
+    height: 185px;
+    text-align: center;
+}
+.support-content h1{
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 36px;
+}
+.support-content p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    opacity: .7;
+}
+.support-content input{
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+
+    background: rgb(255, 255, 255);
+    padding: 19px 20px 19px 20px;
+    height: 57px;
+    width: 548px;
+    
+
+}
+.support-content button{
+    width: 120px;
+    height: 57px;
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 600;
+}
+.support-content form{
+    margin-top: 64px;
 }
