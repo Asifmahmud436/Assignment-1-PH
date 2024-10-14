@@ -165,6 +165,15 @@ font-weight: 800;
     padding: 40px;
     width: 364px;
 }
+.target-card .sp-p{
+    font-family: Azeret Mono;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-decoration-line: underline;
+    }
 .html-card{
     border-radius: 16px;
     background: rgba(255, 76, 30, 0.05);
