@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+url(display:%20flex)@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
 *{
     font-family: "Azeret Mono", monospace;
     font-optical-sizing: auto;
@@ -8,7 +8,7 @@
 /*      navbar       */
 nav ul{
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     justify-content: space-around;
     align-items: center;
 }
@@ -95,7 +95,7 @@ nav ul li button{
 }
 .reason-card{
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     margin: 108px;
     background-color: white;
     border-radius: 16px;
@@ -160,7 +160,7 @@ font-weight: 800;
 }
 .target-card-container{
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     justify-content: space-around;
 }
 .target-card{
@@ -243,7 +243,7 @@ font-weight: 800;
 /* footer */
 footer{
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     justify-content: space-around;
     margin-top: 50px;
     height: 100px;
